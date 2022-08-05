@@ -29,7 +29,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div p-6 m-3 sm:m-12 text-black>
+  <div p-6 m-3 sm:m-12 text-black dark:text-gray-50>
     <div text-center mb-8>
       <h1 text-4xl font-bold>
         Design solutions made easy
@@ -118,11 +118,11 @@ onMounted(() => {
       </Carousel>
 
       <div flex justify-center gap-3 mt-6>
-        <div rounded-full p-5 bg-black @click="prevSlide">
-          <div i-carbon-arrow-left text-white />
+        <div rounded-full p-5 bg-black dark:bg-red-400 @click="prevSlide">
+          <div i-carbon-arrow-left text-white dark:text-black />
         </div>
-        <div rounded-full p-5 bg-black @click="nextSlide">
-          <div i-carbon-arrow-right text-white />
+        <div rounded-full p-5 bg-black dark:bg-red-400 @click="nextSlide">
+          <div i-carbon-arrow-right text-white dark:text-black />
         </div>
       </div>
     </div>

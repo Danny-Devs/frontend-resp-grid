@@ -18,7 +18,7 @@
 
     <!-- header copied to footer -->
     <div mb-4 mt-8 flex items-center justify-between>
-      <div text-2xl i-carbon-camera />
+      <div text-2xl i-carbon-camera dark:text-gray-100/>
       <button bg-black px-8 py-3 rounded-full text-xs class="text-[#FFF7F0]">
         Free Consultation
       </button>
