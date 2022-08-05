@@ -29,7 +29,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div p-6 m-3 sm:m-12>
+  <div p-6 m-3 sm:m-12 text-black>
     <div text-center mb-8>
       <h1 text-4xl font-bold>
         Design solutions made easy
