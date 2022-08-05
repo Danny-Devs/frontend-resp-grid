@@ -104,7 +104,7 @@ onMounted(() => {
       <h2 mb-6 text-center text-3xl font-bold>
         My Work
       </h2>
-      <Carousel class="bg-[#F2F2F2]" ref="myCarousel" :items-to-show="1.5" :wrap-around="true">
+      <Carousel class="bg-[#F2F2F2] dark:bg-gray-800" ref="myCarousel" :items-to-show="1.5" :wrap-around="true">
         <Slide v-for="(imageUrl, index) in imageUrls" :key="index">
           <div class="carousel__item">
             <img :src="imageUrl" alt="image">
