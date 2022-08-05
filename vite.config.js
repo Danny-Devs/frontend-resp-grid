@@ -80,7 +80,7 @@ export default defineConfig({
           },
         })
         md.use(LinkAttributes, {
-          matcher: (link: string) => /^https?:\/\//.test(link),
+          matcher: link => /^https?:\/\//.test(link),
           attrs: {
             target: '_blank',
             rel: 'noopener',
