@@ -1,7 +1,6 @@
 <script setup>
 import { Carousel, Navigation, Pagination, Slide } from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css'
-import { breakpointsTailwind, useBreakpoints } from '@vueuse/core'
 
 const myCarousel = ref(null)
 
@@ -12,10 +11,6 @@ const imageUrls = [
   '/04.jpg',
   '/05.jpg',
 ]
-
-const breakpoints = useBreakpoints({
-  breakpointsTailwind,
-})
 
 const nextSlide = () => {
   myCarousel.value.next()
